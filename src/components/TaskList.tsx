@@ -62,6 +62,7 @@ export default function TaskList() {
               done={task.done}
               removeFunc={removeTask}
               markAsDone={markAsDone}
+              markAsDoneBtnName={task.done ? 'unmark as done' : 'mark as done'}
             />
           </>
         ))}
